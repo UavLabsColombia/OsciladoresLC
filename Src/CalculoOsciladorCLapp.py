@@ -3,11 +3,11 @@
 ## para el montaje de 1 circuito basados en el oscilador con transistor BJT 2n3904
 ## 
 
-## Oscilador para el 	Colpits 
+## Oscilador para el 	Clapp 
 
 import math
 lClapp= 100e-6 # Expresado en Henrios
-## Para el colpits, tenemos encuenta el criterio
+## Para el Clapp, tenemos encuenta el criterio
 #hfe> c1/c2
 c1Clapp = 0.1e-9 # Expresado en Faradios
 c2Clapp = 1e-9 # Expresado en Faradios
@@ -58,7 +58,7 @@ else:
 
 
 
-# Calculo de los valores para el diseno del transistor para el colpits
+# Calculo de los valores para el diseno del transistor para el Clapp
 ## Ganancia del transistor debida a los condensadores, tambien conocida como atenuacion o factor 
 ## de retroalimentacion.
 beta=Ac1SobreC2 = c1Clapp/c2Clapp
